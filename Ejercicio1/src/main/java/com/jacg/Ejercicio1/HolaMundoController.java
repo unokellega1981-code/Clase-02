@@ -18,7 +18,7 @@ public class HolaMundoController {
     }
 
     @GetMapping("/Cuadrado/{number}")
-    public String mumumu(@PathVariable int number){
-        return "El cuadrado de ese número es " + (int)Math.pow(number,2);
+    public String mumumu(@PathVariable int number) {
+        return "El cuadrado de ese número es " + (int) Math.pow(number, 2);
     }
 }
